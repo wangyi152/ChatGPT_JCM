@@ -120,7 +120,7 @@
         
         <div class="s-wrapper">
           <div >
-            <input type="hidden" class="inputs" v-model="SettingInfo.KeyMsg" placeholder="请输入OpenAI KEY" style="width: 100%; margin-left: 0px;margin-right: 0px;"/>
+            <input class="inputs" v-model="SettingInfo.KeyMsg" placeholder="请输入OpenAI KEY" style="width: 100%; margin-left: 0px;margin-right: 0px;"/>
           </div>
             <!--对话设置-->
             <el-collapse-transition>
